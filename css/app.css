@@ -1,0 +1,11 @@
+body {
+	margin: 0px !important;
+}
+
+.ui-dialog .ui-dialog-content {
+    padding: 0px !important;
+}
+
+#iprDialog {
+	overflow-y: hidden;
+}

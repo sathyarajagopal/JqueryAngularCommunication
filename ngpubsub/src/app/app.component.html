@@ -1,0 +1,20 @@
+<!-- The Modal -->
+<div id="myModal" class="modal">
+  <!-- Modal content -->
+  <div class="modal-content">
+    <div class="modal-header">
+      <h2>Modal Header</h2>
+    </div>
+    <div class="modal-body">
+      <p>Below child component is populated from the value sent from parent application</p>
+      <app-clientlist></app-clientlist>
+    </div>
+    <div class="modal-footer">
+      <div class="wrapper">
+        <div class="l_UnitRight">
+          <button id="btnSendMsgToParent" (click)="sendMessageToParent()">Send Message to Parent</button>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>

@@ -1,0 +1,3 @@
+<select [(ngModel)]="selectedClient.id" (input)="onInput($event)">
+  <option *ngFor="let client of clients" value= {{client.id}}>{{client.name}}</option>
+</select>
